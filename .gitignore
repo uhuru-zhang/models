@@ -1,2 +1,7 @@
 .idea/*
+*.txt
+*.csv
+*.swp
+*.zip
+*.doc*
 
