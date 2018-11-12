@@ -34,8 +34,6 @@ class KMean(object):
                     label_num[int(label_)] += 1
                 print(label_num)
 
-            print("===================")
-
             if torch.min(current_centroids == last_centroids).item() == 1:
                 print(last_centroids)
                 break
